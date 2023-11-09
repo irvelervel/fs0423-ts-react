@@ -15,7 +15,7 @@ const FunctionalComponent = (props: FunctionalComponentProps) => {
   return (
     <div>
       <h2 style={{ color: props.h2Color || 'blue' }}>
-        Componente a funzione in TS!
+        VEDIAMO SE PUSHA LA MODIFICA!
       </h2>
       <p>{props.textContent}</p>
       <p onClick={() => setCounter(100)}>Il valore di counter è: {counter}</p>
